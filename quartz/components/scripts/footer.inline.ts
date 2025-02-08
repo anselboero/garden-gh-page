@@ -33,8 +33,11 @@ function updateLastMovieWatched() {
         const comment = data.last_watched__comment 
             ? `<br /><i>${data.last_watched__comment}</i>` 
             : "";
+        console.log(data.last_watched__review_link)
+        const reviewLink = data.last_watched__review_link
+            ? `<br />Read my review <a href="${data.last_watched__review_link}">here</a>.`
+            : "";
 
-        const output = `${episodeInfo}${comment}`;
         
         lastmoviewatched.innerHTML = `
             <p>
@@ -43,6 +46,7 @@ function updateLastMovieWatched() {
                 <a href="${data.last_watched__imdb_link}">${data.last_watched__title}</a>: ${data.last_watched__rating}
                 ${episodeInfo}
                 ${comment}
+                ${reviewLink}
             </p>
             
             <img 
