@@ -7,7 +7,7 @@ Here, you’ll find reflections around my main interests: data, critical thinkin
 
 I primarily write for myself: improving your writing [helps](https://paulgraham.com/writes.html)improve your thinking. However, I’ll be glad if some of my content proves useful to you as well.    
 
-The folder structure is heavily inspired by [[./Jacky Zhao| JZhao]] [website](https://jzhao.xyz/) (Even though my personal Obsidian is following the [PARA Method](https://fortelabs.com/blog/para/), and I like the idea of living documents: I might one day shift the blog to this different structure):
+The folder structure is heavily inspired by [[Jacky Zhao| JZhao]] [website](https://jzhao.xyz/) (Even though my personal Obsidian is following the [PARA Method](https://fortelabs.com/blog/para/), and I like the idea of living documents: I might one day shift the blog to this different structure):
 - In [Essays](/essays/) you will find my most curated posts.
 - [Thoughts](/thoughts) contains considerations around topics which were resonating sound during the writing period. They are dirtier than the Essays and I expect to update them over the time.
 - In [Projects](/projects) are documented some of the projects I've worked on.
