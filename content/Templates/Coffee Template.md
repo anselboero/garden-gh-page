@@ -1,6 +1,6 @@
 ---
 category:
-  - "[[Coffee]]"
+  - "[[Coffee|Coffee]]"
 maker: 
 producer: 
 country: []

@@ -1,11 +1,12 @@
 ---
 category:
-  - "[[Meditations]]"
+  - "[[Meditations|Meditations]]"
 tags:
   - note
   - journal
   - meditation
-created: {{date}}
+created:
+  "{ date }": 
 loc: []
 topics: []
 ---

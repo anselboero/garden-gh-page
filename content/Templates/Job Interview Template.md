@@ -1,11 +1,12 @@
 ---
 category:
-  - "[[Meetings]]"
+  - "[[Meetings|Meetings]]"
 type:
-  - "[[Job Interviews]]"
+  - "[[Job Interviews|Job Interviews]]"
 org: 
 people: []
-date: {{date}}
+date:
+  "{ date }": 
 role: 
 rating: 
 tags:

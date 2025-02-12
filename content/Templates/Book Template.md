@@ -1,6 +1,6 @@
 ---
 category:
-  - "[[Books]]"
+  - "[[Books|Books]]"
 author: 
 cover: 
 genre: 

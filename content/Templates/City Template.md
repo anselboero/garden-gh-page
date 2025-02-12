@@ -1,14 +1,15 @@
 ---
 category:
-  - "[[Places]]"
+  - "[[Places|Places]]"
 type:
-  - "[[Cities]]"
+  - "[[Cities|Cities]]"
 tags:
   - places
   - cities
 loc: 
 rating: 
-created: {{date}}
+created:
+  "{ date }": 
 last: 
 location:
   - "35.021041"
@@ -16,16 +17,9 @@ location:
 ---
 ## Trips
 
-```dataview
-table without id
-	file.link as Trip,
-	start as Start,
-	end as End
-where
-	contains(category, [[Trips]]) and
-	contains(loc, this.file.link)
-sort file.name desc
-```
+| Trip | Start | End |
+| ---- | ----- | --- |
+
 
 ## Map
 
@@ -42,13 +36,5 @@ coordinates: [[Kyoto]]
 
 ## Places
 
-```dataview
-table without id
-	file.link as Place,
-	rating as Rating,
-	type as Type
-where
-	contains(category, [[Places]]) and
-	contains(loc, this.file.link)
-sort rating desc
-```
+| Place | Rating | Type |
+| ----- | ------ | ---- |

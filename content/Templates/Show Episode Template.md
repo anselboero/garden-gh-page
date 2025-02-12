@@ -1,6 +1,6 @@
 ---
 category:
-  - "[[Show episodes]]"
+  - "[[Show episodes|Show episodes]]"
 show: 
 season: 
 episode: 
@@ -11,5 +11,5 @@ tags:
   - episodes
   - references
 ---
-## [[{{date}}]]
+## [[{{date}}|{{date}}]]
 

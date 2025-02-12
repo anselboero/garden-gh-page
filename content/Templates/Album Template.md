@@ -1,6 +1,6 @@
 ---
 category:
-  - "[[Albums]]"
+  - "[[Albums|Albums]]"
 tags:
   - music
   - albums
@@ -8,7 +8,8 @@ tags:
 genre: []
 artist: ""
 year: 
-created: {{date}}
-rating:
+created:
+  "{ date }": 
+rating: 
 ---
 

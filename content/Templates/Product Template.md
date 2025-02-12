@@ -1,12 +1,13 @@
 ---
 category:
-  - "[[Products]]"
+  - "[[Products|Products]]"
 type: 
 maker: 
 model: 
 rating: 
 price: 
-acquired: {{date}}
+acquired:
+  "{ date }": 
 monthly-uses: 
 tags:
   - products

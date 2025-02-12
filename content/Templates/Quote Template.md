@@ -1,9 +1,10 @@
 ---
 attribution: []
 source: 
-created: {{date}}
+created:
+  "{ date }": 
 tags:
   - quotes
 topics: []
-via:
+via: 
 ---

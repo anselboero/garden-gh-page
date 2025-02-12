@@ -1,6 +1,6 @@
 ---
 category:
-  - "[[Clippings]]"
+  - "[[Clippings|Clippings]]"
 tags:
   - clippings
 author: 
@@ -8,6 +8,6 @@ url: ""
 created:
   "{ date }": 
 published: 
-topics:
+topics: 
 ---
 

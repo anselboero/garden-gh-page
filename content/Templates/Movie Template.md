@@ -1,13 +1,14 @@
 ---
 category:
-  - "[[Movies]]"
+  - "[[Movies|Movies]]"
 cover: 
 genre: []
 director: 
 cast: []
 rating: 
 year: 
-last: {{date}}
+last:
+  "{ date }": 
 imdbId: 
 via: 
 tags:
@@ -15,5 +16,5 @@ tags:
   - references
 ---
 
-[[{{date}}]]
+[[{{date}}|{{date}}]]
 

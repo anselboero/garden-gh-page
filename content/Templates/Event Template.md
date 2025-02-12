@@ -1,10 +1,10 @@
 ---
 category:
-  - "[[Events]]"
+  - "[[Events|Events]]"
 tags:
   - events
 type: 
 start: 
 end: 
-loc:
+loc: 
 ---

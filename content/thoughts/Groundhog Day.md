@@ -1,16 +1,16 @@
 ---
 category:
-  - "[[Movies]]"
+  - "[[Movies|Movies]]"
 cover: https://m.media-amazon.com/images/M/MV5BOWE3MjQ3ZDAtNDQ2MC00YjBjLTk0ZWYtNjQ0YzQ4YWE3YTEyXkEyXkFqcGc@._V1_SX300.jpg
 genre:
-  - "[[Comedy]]"
-  - "[[Drama]]"
-  - "[[Fantasy]]"
+  - "[[Comedy|Comedy]]"
+  - "[[Drama|Drama]]"
+  - "[[Fantasy|Fantasy]]"
 director:
-  - "[[Harold Ramis]]"
+  - "[[Harold Ramis|Harold Ramis]]"
 cast:
-  - "[[Bill Murray]]"
-  - "[[Andie MacDowell]]"
+  - "[[Bill Murray|Bill Murray]]"
+  - "[[Andie MacDowell|Andie MacDowell]]"
 rating: 7
 year: 1993
 last: 2025-02-08
@@ -40,11 +40,11 @@ A good movie with a clear and strong message behind it, that can show how Comedy
 P.s. 
 This is my first review. It's far from being insightful, but somewhere we have to start.
 In order to improve my writing, I will collect for the next movie reviews some paragraphs from other reviews I've found online, if anything interesting.
-Moreover, [Deliberative practice to writing](https://www.youtube.com/watch?v=Ft1X6krnZtI) is a very important approach to improve the style. I'll use an alternative to the one suggested here by [[Cal Newport]], by asking LLMs to adjust and improve my writing. You can find prompts and answers below.
+Moreover, [Deliberative practice to writing](https://www.youtube.com/watch?v=Ft1X6krnZtI) is a very important approach to improve the style. I'll use an alternative to the one suggested here by [[../references/people/Cal Newport|Cal Newport]], by asking LLMs to adjust and improve my writing. You can find prompts and answers below.
 
 
 # Deliberative Practice to writing
-With [[OpenAI]]'s [[o1]].
+With [[../references/OpenAI|OpenAI]]'s [[../references/o1|o1]].
 
 Prompt:
 

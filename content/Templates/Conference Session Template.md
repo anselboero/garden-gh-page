@@ -1,11 +1,12 @@
 ---
-category: 
-  - "[[Conference sessions]]"
+category:
+  - "[[Conference sessions|Conference sessions]]"
 conference: 
 speaker: 
 topics: []
 rating: 
-last: {{date}}
+last:
+  "{ date }": 
 tags:
   - conferences
   - sessions

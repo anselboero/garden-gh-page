@@ -4,12 +4,46 @@ tags:
 ---
 ## Notes
 
-```dataview
-list
-where
-	!contains(file.tags, "daily") and
-	contains(file.outlinks, this.file.link) or
-	contains(string(file.frontmatter), string(dateformat(this.file.day,"yyyy-MM-dd")))
-sort file.ctime asc
-limit 50
-```
+- [[./Album Template|Album Template]]
+- [[./App Template|App Template]]
+- [[./Article Template|Article Template]]
+- [[./Board Game Template|Board Game Template]]
+- [[./Book Template|Book Template]]
+- [[./City Template|City Template]]
+- [[./Clipping Template|Clipping Template]]
+- [[./Coffee Template|Coffee Template]]
+- [[./Company Template|Company Template]]
+- [[./Conference Session Template|Conference Session Template]]
+- [[./Conference Template|Conference Template]]
+- [[./Contact Template|Contact Template]]
+- [[./Director Template|Director Template]]
+- [[./Email Template|Email Template]]
+- [[./Event Template|Event Template]]
+- [[./Evergreen Template|Evergreen Template]]
+- [[./Food Template|Food Template]]
+- [[./Hosting Template|Hosting Template]]
+- [[./Job Interview Template|Job Interview Template]]
+- [[./Journal Template|Journal Template]]
+- [[./Meditation Template|Meditation Template]]
+- [[./Meeting Template|Meeting Template]]
+- [[./Movie Template|Movie Template]]
+- [[./Musician Template|Musician Template]]
+- [[./People Template|People Template]]
+- [[./Place Template|Place Template]]
+- [[./Podcast Episode Template|Podcast Episode Template]]
+- [[./Podcast Template|Podcast Template]]
+- [[./Post Template|Post Template]]
+- [[./Product Template|Product Template]]
+- [[./Project Template|Project Template]]
+- [[./Quote Template|Quote Template]]
+- [[./Real Estate Template|Real Estate Template]]
+- [[./Recipe Template|Recipe Template]]
+- [[./Restaurant Template|Restaurant Template]]
+- [[./Show Episode Template|Show Episode Template]]
+- [[./Show Template|Show Template]]
+- [[./Stock Trade Template|Stock Trade Template]]
+- [[./Trip Template|Trip Template]]
+- [[./Video Game Template|Video Game Template]]
+- [[../references/OpenAI|OpenAI]]
+- [[../references/o1|o1]]
+- [[../thoughts/Groundhog Day|Groundhog Day]]

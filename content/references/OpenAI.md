@@ -1,9 +1,9 @@
 ---
 category:
-  - "[[Companies]]"
+  - "[[Companies|Companies]]"
 tags:
   - companies
 type: []
 people: []
-url:
+url: 
 ---

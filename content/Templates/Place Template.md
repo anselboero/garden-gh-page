@@ -1,11 +1,13 @@
 ---
 category:
-  - "[[Places]]"
+  - "[[Places|Places]]"
 tags:
   - places
 type: []
 loc: []
 rating: 
-created: {{date}}
-last: {{date}}
+created:
+  "{ date }": 
+last:
+  "{ date }": 
 ---

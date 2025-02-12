@@ -1,7 +1,7 @@
 ---
 category:
-  - "[[People]]"
+  - "[[People|People]]"
 phone: 
 twitter: 
-org:
+org: 
 ---

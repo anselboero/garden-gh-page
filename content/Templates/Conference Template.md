@@ -1,6 +1,6 @@
 ---
 category:
-  - "[[Events]]"
+  - "[[Events|Events]]"
 type: "[[Conferences]]"
 series: 
 start: 

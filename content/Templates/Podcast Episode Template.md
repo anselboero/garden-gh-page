@@ -1,6 +1,6 @@
 ---
 category:
-  - "[[Podcast episodes]]"
+  - "[[Podcast episodes|Podcast episodes]]"
 tags:
   - podcast
   - episodes
@@ -11,6 +11,7 @@ episode:
 url: 
 rating: 
 published: 
-last: {{date}}
+last:
+  "{ date }": 
 ---
 - 

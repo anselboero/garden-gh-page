@@ -16,9 +16,9 @@ If you like it, and you would like to create your personal Movies Database too, 
 
 Let me know if you have questions or suggestions (about movies, too), I'd love to hear more from you.
 
-![[Pasted image 20250202160812.png]]
+![[../attachments/Pasted image 20250202160812.png|Pasted image 20250202160812.png]]
 
-![[Pasted image 20250202160824.png]]
+![[../attachments/Pasted image 20250202160824.png|Pasted image 20250202160824.png]]
 
 
 

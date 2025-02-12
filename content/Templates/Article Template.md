@@ -1,6 +1,6 @@
 ---
 category:
-  - "[[Articles]]"
+  - "[[Articles|Articles]]"
 tags:
   - articles
 author: 
@@ -11,5 +11,5 @@ published:
 topics: 
 status:
   - "[[To-Do|To-Do]]"
-magazine:
+magazine: 
 ---

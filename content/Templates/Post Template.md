@@ -1,14 +1,14 @@
 ---
 category:
-  - "[[Posts]]"
+  - "[[Posts|Posts]]"
 tags:
   - posts
 author:
-  - "[[Me]]"
+  - "[[Me|Me]]"
 url: 
 created:
   "{ date }": 
 published: 
 topics: []
-status:
+status: 
 ---
