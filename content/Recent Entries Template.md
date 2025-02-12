@@ -1,4 +1,0 @@
-# Recent entries
-
-| File | Date |
-| ---- | ---- |
