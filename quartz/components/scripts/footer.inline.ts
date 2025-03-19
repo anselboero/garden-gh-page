@@ -68,5 +68,4 @@ function updateLastMovieWatched() {
 document.addEventListener("nav", () => {
 
     updateLastMovieWatched()
-    updateNetWorth()
 })
