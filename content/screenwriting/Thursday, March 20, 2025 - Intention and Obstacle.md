@@ -23,14 +23,14 @@ above the table where Ana is working.
             story. Let me give you an example:
             The main character is training hard
             every day because she wants to
-            complete a marathon. You might say?
+            complete a marathon. You might say,
             "Okay, why is this story so
             special?" It's not. But if I say
             "the main character wants to
             complete a marathon to show himself
             that she is stronger than the cancer
-            she was diagnosed a few months ago",
-            that we have both, a clear intention
+            she was diagnosed with a few months ago",
+            then we have both, a clear intention
             and a very strong obstacle. You
             might also feel more closer to her,
             you might sense empathy. And the
