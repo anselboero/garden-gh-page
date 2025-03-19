@@ -27,8 +27,6 @@ export default ((opts?: Options) => {
               <br />
               This website does not use 🍪.
             </p>
-            <div id="networth">
-            </div>
             <ul>
               {Object.entries(links).map(([text, link]) => (
                 <li>
