@@ -9,6 +9,7 @@ I primarily write for myself: improving your writing [helps](https://paulgraham.
 
 The folder structure is heavily inspired by [[./references/people/Jacky Zhao| JZhao]] [website](https://jzhao.xyz/) (Even though my personal Obsidian is following the [PARA Method](https://fortelabs.com/blog/para/), and I like the idea of living documents: I might one day shift the blog to this different structure):
 - In [Essays](/essays/) you will find my most curated posts.
+- I'm learning screenwriting. I'm [writing](/screenwriting/) a screenplay. A scene per day. Every day.
 - [Thoughts](/thoughts) contains considerations around topics which were resonating sound during the writing period. They are dirtier than the Essays and I expect to update them over the time.
 - In [Projects](/projects) are documented some of the projects I've worked on.
 - [Notes](/notes/) contains condensed blocks of knowledge on a specific subject, and can be used as appendix to the essays and thoughts.
