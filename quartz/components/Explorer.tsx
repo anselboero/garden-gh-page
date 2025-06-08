@@ -34,7 +34,8 @@ const defaultOptions = {
     }
   },
   // Also filteering out people page
-  filterFn: (node) => node.name !== "tags" && node.name !== "references",
+  filterFn: (node) => node.name !== "Tags" && node.name !== "Attachments"
+    && node.name != "References",
   order: ["filter", "map", "sort"],
 } satisfies Options
 
