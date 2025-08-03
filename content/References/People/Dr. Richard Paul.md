@@ -4,6 +4,8 @@ tags:
   - people
   - authors
 ---
+He was one of the main writer @ [criticalthinking.org](https://www.criticalthinking.org/).
+He [passed away](https://www.criticalthinking.org/pages/richard-paul-memorial/1231) on August 30, 2015.
 ## Books
 
 ```dataview
@@ -23,7 +25,7 @@ sort rating desc
 ```dataview
 table without id
 	file.link as Title,
-	year as Year,
+	published.year as Year,
 	rating as Rating
 where
 	contains(category,[[Articles]])

@@ -10,7 +10,7 @@ The structure is very simple: Three folders, Inputs, Mental Models and Outputs.
 - The [[Mental Models/index|Mental Models]] folder is contains the core part of this blog. Each page represents a model, with short description, examples, and references to other models. Read the subsequent section to better understand what is my understanding of mental models (my mental model about mental models).
 - In the [[Outputs/index|Outputs]] folder, as you might imagine, I'll try to sketch my ideas about some topics, by making strong usage of the Mental Models above mentioned. It's mainly a personal thinking exercise, that can help improve my reasoning and understanding of the world. But since my view is very limited, due to the unknown unknowns and to the fact that I'm very myopic, feedbacks and discussions are highly appreciated. I hope I'll manage to open Github comments soon.
 
-![[Attachments/images/index__blog_structure.png]]
+![[index__blog_structure.png]]
 *Image 1.1: The structure of the blog (Yes, I will add more icons once I'll have figured out how to create them).*
 
 ## What are mental models?

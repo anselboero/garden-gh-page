@@ -4,6 +4,7 @@ tags:
   - people
   - authors
 ---
+She is an American education psychologist, author and president of the Foundation for Critical Thinking.
 ## Books
 
 ```dataview
