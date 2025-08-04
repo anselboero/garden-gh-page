@@ -80,10 +80,9 @@ function updateCurrentBookReading() {
             `
     })
     .catch((e) => {
+        console.error("Error fetching currently reading book:", e)
         const currentlyreading = document.getElementById("currentlyreading")
         if (!currentlyreading) return
-        console.error("Error fetching currently reading book:", e)
-        
         currentlyreading.innerHTML = ""
     })
 }
