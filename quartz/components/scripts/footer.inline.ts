@@ -33,7 +33,6 @@ function updateLastMovieWatched() {
         const comment = data.last_watched__comment 
             ? `<br /><i>${data.last_watched__comment}</i>` 
             : "";
-        console.log(data.last_watched__review_link)
         const reviewLink = data.last_watched__review_link
             ? `<br />Read my review <a href="${data.last_watched__review_link}">here</a>.`
             : "";
@@ -62,10 +61,36 @@ function updateLastMovieWatched() {
     })
 }
 
+function updateCurrentBookReading() {
+    fetch("https://storage.googleapis.com/anselboero-website-prod-apis/currently_reading_book.json")
+    .then((response) => response.json())
+    .then((data) => {
+        const currentlyreading = document.getElementById("currentlyreading")
+        if (!currentlyreading) return
+
+
+        currentlyreading.innerHTML = `
+                <p>
+                    Currently reading
+                    <br />
+                    <a href="${data.currently_reading__goodreads_link}">${data.currently_reading__title}</a>
+                </p>
+                <img 
+                src="${data.currently_reading__poster_link}" width="40%">
+            `
+    })
+    .catch(() => {
+        const currentlyreading = document.getElementById("currentlyreading")
+        if (!currentlyreading) return
+
+        currentlyreading.innerHTML = ""
+    })
+}
+
 // needed in order to keep the function live while navigating
 // the website.
 // reference: https://discord.com/channels/927628110009098281/1006391490962010152/threads/1322305204871368764
 document.addEventListener("nav", () => {
-
     updateLastMovieWatched()
+    updateCurrentBookReading()
 })

@@ -16,7 +16,6 @@ export default ((opts?: Options) => {
     const links = opts?.links ?? []
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <div class="flex-container">
           <div>
             <p>
               {i18n(cfg.locale).components.footer.createdWith}{" 💙 with "}
@@ -35,6 +34,9 @@ export default ((opts?: Options) => {
               ))}
             </ul>
           </div>
+          <div class="flex-container">
+            <div id="currentlyreading">
+            </div>
           <div id="lastmoviewatched">
           </div>
         </div>
