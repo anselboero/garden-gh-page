@@ -79,10 +79,11 @@ function updateCurrentBookReading() {
                 src="${data.currently_reading__poster_link}" width="40%">
             `
     })
-    .catch(() => {
+    .catch((e) => {
         const currentlyreading = document.getElementById("currentlyreading")
         if (!currentlyreading) return
-
+        console.error("Error fetching currently reading book:", e)
+        
         currentlyreading.innerHTML = ""
     })
 }
