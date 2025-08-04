@@ -68,12 +68,16 @@ function updateCurrentBookReading() {
         const currentlyreading = document.getElementById("currentlyreading")
         if (!currentlyreading) return
 
+        const quote = data.currently_reading__quote 
+            ? `<br /><i>${data.currently_reading__quote}</i>` 
+            : "";
 
         currentlyreading.innerHTML = `
                 <p>
                     Currently reading
                     <br />
                     <a href="${data.currently_reading__goodreads_link}">${data.currently_reading__title}</a>
+                    ${quote}
                 </p>
                 <img 
                 src="${data.currently_reading__poster_link}" width="40%">
