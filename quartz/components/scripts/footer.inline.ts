@@ -74,7 +74,7 @@ function updateCurrentBookReading() {
 
         currentlyreading.innerHTML = `
                 <p>
-                    Currently reading
+                    What I'm reading
                     <br />
                     <a href="${data.currently_reading__goodreads_link}">${data.currently_reading__title}</a>
                     ${quote}
@@ -91,10 +91,57 @@ function updateCurrentBookReading() {
     })
 }
 
+function testBlock() {
+    const testBlock1 = document.getElementById("testblock1")
+    const testBlock2 = document.getElementById("testblock2")
+    if (!testBlock1) return
+    if (!testBlock2) return
+
+    testBlock1.innerHTML = `
+        <p>
+            Currently reading
+            <br />
+            <a href="https://www.goodreads.com/book/show/41038">The Rotters' club</a>
+            <br />
+            This was in the days before men learned to discuss their feelings, of course. 
+            And in the days before 
+            bonding sessions between management and workforce were at all common. 
+            They were pioneers, in a way, these three.
+        </p>
+        <img 
+        src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320495527i/41038.jpg" width="40%">
+    `
+    testBlock2.innerHTML = `
+        <p>
+            Currently reading
+            <br />
+            <a href="https://www.goodreads.com/book/show/41038">The Rotters' club</a>
+            <br />
+            This was in the days before men learned to discuss their feelings, of course. 
+            And in the days before 
+            bonding sessions between management and workforce were at all common. 
+            They were pioneers, in a way, these three.
+        </p>
+        <img 
+        src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320495527i/41038.jpg" width="40%">
+    `
+    testBlock2.innerHTML = `
+        <p>
+                Recently watched
+                <br />
+                <a href="https://www.imdb.com/title/tt16431966">Sometimes I think About Dying</a>: 7
+            </p>
+            <img 
+            src="https://m.media-amazon.com/images/M/MV5BYzY2OTIzMjUtNmNlZC00YTg0LTgwZWUtN2UwMmMwZjdiODI3XkEyXkFqcGc@._V1_SX300.jpg"
+            width="40%"></img>
+        `
+}
+
 // needed in order to keep the function live while navigating
 // the website.
 // reference: https://discord.com/channels/927628110009098281/1006391490962010152/threads/1322305204871368764
 document.addEventListener("nav", () => {
     updateLastMovieWatched()
     updateCurrentBookReading()
+    testBlock()
 })
