@@ -35,9 +35,9 @@ export default ((opts?: Options) => {
             </ul>
           </div>
           <div class="flex-container">
-            <div id="testblock1">
+            <div id="currentlyreading">
             </div>
-          <div id="testblock2">
+          <div id="lastmoviewatched">
           </div>
         </div>
       </footer>
