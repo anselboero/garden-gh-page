@@ -43,14 +43,16 @@ function updateLastMovieWatched() {
                 Recently watched
                 <br />
                 <a href="${data.last_watched__imdb_link}">${data.last_watched__title}</a>: ${data.last_watched__rating}
-                ${episodeInfo}
-                ${comment}
-                ${reviewLink}
             </p>
             
             <img 
             src="${data.last_watched__poster_link}"
             width="40%"></img>
+            <p>
+                ${episodeInfo}
+                ${comment}
+                ${reviewLink}
+            </p>
         `
     })
     .catch(() => {
@@ -77,10 +79,13 @@ function updateCurrentBookReading() {
                     What I'm reading
                     <br />
                     <a href="${data.currently_reading__goodreads_link}">${data.currently_reading__title}</a>
-                    ${quote}
                 </p>
                 <img 
-                src="${data.currently_reading__poster_link}" width="40%">
+                src="${data.currently_reading__poster_link}" width="40%"></img>
+                <p>
+                    ${quote}
+                </p>
+
             `
     })
     .catch((e) => {
