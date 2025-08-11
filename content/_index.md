@@ -21,7 +21,7 @@ They are highly-interconnected to each other, and once you have created and mast
 
 I'm a Data Engineer, and modeling data is one of the main challenge I'm dealing with daily. Classifications and Ontologies are very important to me. The blog is based on [Quartz](https://quartz.jzhao.xyz/), a static-site generator that transforms Markdown content into a website. I'm writing the articles by using [Obsidian](https://obsidian.md/), a note-taking application, operating on markdown files. I'll try to use the power of these two products, joint with my passion for the ontology, to create a fully functional website, where users can navigate through the pages via links, backlinks, tags and graphs, in order to reproduce the interconnections that I'm trying to create while studying these mental models.
 
-Thank you
+
 
 
  

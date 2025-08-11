@@ -38,7 +38,7 @@ export default ((opts?: Options) => {
             <div id="currentlyreading">
             </div>
           <div id="lastmoviewatched">
-          </div>
+            </div>
         </div>
       </footer>
     )
