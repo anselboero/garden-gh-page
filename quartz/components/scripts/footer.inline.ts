@@ -104,32 +104,20 @@ function testBlock() {
 
     testBlock1.innerHTML = `
         <p>
-            Currently reading
+            What I'm reading
             <br />
             <a href="https://www.goodreads.com/book/show/41038">The Rotters' club</a>
-            <br />
-            This was in the days before men learned to discuss their feelings, of course. 
-            And in the days before 
-            bonding sessions between management and workforce were at all common. 
-            They were pioneers, in a way, these three.
         </p>
         <img 
         src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320495527i/41038.jpg" width="40%">
-    `
-    testBlock2.innerHTML = `
         <p>
-            Currently reading
-            <br />
-            <a href="https://www.goodreads.com/book/show/41038">The Rotters' club</a>
-            <br />
             This was in the days before men learned to discuss their feelings, of course. 
             And in the days before 
             bonding sessions between management and workforce were at all common. 
             They were pioneers, in a way, these three.
         </p>
-        <img 
-        src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320495527i/41038.jpg" width="40%">
     `
+
     testBlock2.innerHTML = `
         <p>
                 Recently watched
