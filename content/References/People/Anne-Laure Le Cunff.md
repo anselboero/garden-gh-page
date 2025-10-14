@@ -1,0 +1,34 @@
+---
+category: "[[People]]"
+tags:
+  - people
+  - authors
+---
+Author of Tiny experiments book and https://nesslabs.com/ blog.
+## Books
+
+
+```dataview
+table without id
+	file.link as Title,
+	year as Year,
+	rating as Rating
+where
+	contains(category,[[Books]])
+	and contains(author,this.file.link)
+sort rating desc
+```
+
+## Articles
+
+
+```dataview
+table without id
+	file.link as Title,
+	published.year as Year,
+	rating as Rating
+where
+	contains(category,[[Articles]])
+	and contains(author,this.file.link)
+sort rating desc
+```
