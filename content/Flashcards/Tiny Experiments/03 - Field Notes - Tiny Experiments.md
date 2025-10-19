@@ -3,6 +3,8 @@ tags:
   - flashcards
 ---
 [[02 - Cognitive Scripts - Tiny Experiments|Previous: Cognitive Scripts]]   
+[[04 - PACT - Tiny Experiments|Next: PACT]]
+
 # Summary
 
 ![[Field Notes - Tiny Experiments.svg]]
