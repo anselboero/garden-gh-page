@@ -24,4 +24,4 @@ tags:
 > I think that, on the broad picture, it's fine to be led by our emotions and own experiences. For instance I tend to save huge part of my salary, maybe because as a millennial the future never looked bright, and invest in partially risk-free options. This is an okay strategy, even if mainly led by the social context where I grew up. But, in order to maximise its effects, math and education is necessary, and it shouldn't be excluded from the equation.
 
 # Credits and References
-- [[Morgan Hausel]], The Psychology of Money, Harriman House, 2020 (9780857197689)
+- [[Morgan Housel]], The Psychology of Money, Harriman House, 2020 (9780857197689)
