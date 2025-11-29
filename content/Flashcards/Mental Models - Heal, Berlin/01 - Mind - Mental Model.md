@@ -2,6 +2,7 @@
 tags:
   - mentalModels
   - flashcards
+date: 2025-11-29
 ---
 # Summary
 
@@ -21,4 +22,4 @@ The better we process information in the working memory, the better these inform
 > As previously said, it makes you aware that working memory is very efficient but it comes with a limited storage: You must pay attention and be vigile to what you want your working memory should work on, because if you lose attention on some volatile details, they might be lost forever. Once you get this bit of notion, you can nudge yourself to take the right direction once you notice your mind is wandering again. :) 
 
 # Credits and References
-- [[Jim Heal]]& [[Rebekah Berlin]] [[Flashcards/Mental Models - Heal, Berlin/_index|Mental Models]], How understanding the mind can transform the way you work and learn, John Catt Educational, 2025 (9781398369689)
+- [[Jim Heal]] & [[Rebekah Berlin]], [[Flashcards/Mental Models - Heal, Berlin/_index|Mental Models]], How understanding the mind can transform the way you work and learn, John Catt Educational, 2025 (9781398369689)
