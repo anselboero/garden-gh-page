@@ -1,6 +1,7 @@
 ---
 tags:
   - flashcards
+  - tinyExperiments
 ---
 [[02 - Cognitive Scripts - Tiny Experiments|Previous: Cognitive Scripts]]   
 [[04 - PACT - Tiny Experiments|Next: PACT]]

@@ -1,6 +1,7 @@
 ---
 tags:
   - flashcards
+  - psychologyOfMoney
 ---
 # Summary
 
