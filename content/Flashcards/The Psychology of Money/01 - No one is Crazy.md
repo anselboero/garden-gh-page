@@ -1,6 +1,8 @@
 ---
 tags:
   - flashcards
+  - psychologyOfMoney
+date: 2025-11-25
 ---
 # Summary
 

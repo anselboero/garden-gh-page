@@ -1,6 +1,7 @@
 ---
 tags:
   - flashcards
+  - tinyExperiments
 ---
 [[03 - Field Notes - Tiny Experiments|Previous: Field Notes]]
 

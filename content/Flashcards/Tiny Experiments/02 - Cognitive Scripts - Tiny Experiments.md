@@ -1,6 +1,7 @@
 ---
 tags:
   - flashcards
+  - tinyExperiments
 ---
 [[01 - Linear Goals - Tiny Experiments|Previous: Linear Goals]]  
 [[03 - Field Notes - Tiny Experiments|Next: Field Notes]]

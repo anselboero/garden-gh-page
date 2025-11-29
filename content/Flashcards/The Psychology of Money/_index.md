@@ -1,3 +1,3 @@
 ---
-titl: The Psychology of Money
+title: The Psychology of Money
 ---
