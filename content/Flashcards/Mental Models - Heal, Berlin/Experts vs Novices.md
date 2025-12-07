@@ -14,10 +14,10 @@ date: 2025-12-07
 - When dealing with a new concepts, experts are able to easily determine what's most worthy of attention. This is a huge advantage because they don't expend unnecessary cognitive energy (as explained in the [[01 - Mind - Mental Model|mind]] model, the attention that the working memory can provide is limited, it's important to plan a careful allocation of attention)
 
 > [!note] #myNotes
-The definition of schema, and the benefits of reducing the cognitive costs when dealing with a problem is not different, in my opinion, from how mental models have been defined by [[Charlie Munger]] (Found it on [[Shane Parrish]]'s Mental Models, Volume I):
-> ```
-> latticework of mental models are chuncks of knowledge from different disciplines than can be simplified and applied to better understand the world. They help identify what information is relevant in any given situation, and the most reasonable parameters to work in.
-> ```
+> The definition of schema, and the benefits of reducing the cognitive costs when dealing with a problem is not different, in my opinion, from how mental models have been defined by [[Charlie Munger]] (Found it on [[Shane Parrish]]'s Mental Models, Volume I):
+> 
+> > latticework of mental models are chuncks of knowledge from different disciplines than can be simplified and applied to better understand the world. They help identify what information is relevant in any given situation, and the most reasonable parameters to work in.
+> 
 
 ## How can Experts help Novices?
 
