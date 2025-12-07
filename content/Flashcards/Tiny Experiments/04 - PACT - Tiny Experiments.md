@@ -2,6 +2,7 @@
 tags:
   - flashcards
   - tinyExperiments
+date: 2025-10-19
 ---
 [[03 - Field Notes - Tiny Experiments|Previous: Field Notes]]
 

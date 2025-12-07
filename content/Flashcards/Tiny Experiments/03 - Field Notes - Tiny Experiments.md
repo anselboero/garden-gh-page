@@ -2,6 +2,7 @@
 tags:
   - flashcards
   - tinyExperiments
+date: 2025-10-14
 ---
 [[02 - Cognitive Scripts - Tiny Experiments|Previous: Cognitive Scripts]]   
 [[04 - PACT - Tiny Experiments|Next: PACT]]
