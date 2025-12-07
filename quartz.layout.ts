@@ -37,10 +37,13 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
+     // Show recent notes on homepage
+    
     Component.TagList(),
     
   ],
   left: [
+    // Show recent notes on homepage
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
