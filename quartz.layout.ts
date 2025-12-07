@@ -5,7 +5,34 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  // Not sure why defaultContentPageLayout doesn't come with afterBody
+  afterBody: [
+    // Show recent notes on homepage
+    Component.ConditionalRender({
+      component: Component.RecentNotes({
+        title: "Recent Notes",
+        limit: 5,
+        filter: (f) => {
+        // Only Flashcards and Writing notes
+        return f.slug!.startsWith("Flashcards/") || f.slug!.startsWith("Writing/")
+      },
+        showTags: false
+      }),
+      condition: (page) => page.fileData.slug === "index",
+    }),
+    // show recent notes on mobile only everywhere
+    Component.MobileOnly(
+      Component.ConditionalRender({
+        component: Component.RecentNotes({
+          title: "Recent Notes",
+          limit: 5,
+          filter: (f) => f.slug!.startsWith("Flashcards/") || f.slug!.startsWith("Writing/"),
+          showTags: false
+        }),
+        condition: (page) => page.fileData.slug !== "index",
+      })
+    ),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/anselboero",
@@ -23,9 +50,13 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
+     // Show recent notes on homepage
+    
     Component.TagList(),
+    
   ],
   left: [
+    // Show recent notes on homepage
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
