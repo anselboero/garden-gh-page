@@ -7,19 +7,6 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   // Not sure why defaultContentPageLayout doesn't come with afterBody
   afterBody: [
-    // Show recent notes on homepage
-    Component.ConditionalRender({
-      component: Component.RecentNotes({
-        title: "Recent Notes",
-        limit: 5,
-        filter: (f) => {
-        // Only Flashcards and Writing notes
-        return f.slug!.startsWith("Flashcards/") || f.slug!.startsWith("Writing/")
-      },
-        showTags: false
-      }),
-      condition: (page) => page.fileData.slug === "index",
-    }),
     // show recent notes on mobile only everywhere
     Component.MobileOnly(
       Component.ConditionalRender({
@@ -29,7 +16,7 @@ export const sharedPageComponents: SharedLayout = {
           filter: (f) => f.slug!.startsWith("Flashcards/") || f.slug!.startsWith("Writing/"),
           showTags: false
         }),
-        condition: (page) => page.fileData.slug !== "index",
+        condition: (page) => page.fileData.slug === "index",
       })
     ),
   ],
@@ -50,13 +37,10 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
-     // Show recent notes on homepage
-    
     Component.TagList(),
     
   ],
   left: [
-    // Show recent notes on homepage
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
@@ -70,6 +54,22 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer(),
+    Component.DesktopOnly(
+       // Show recent notes on homepage
+      Component.ConditionalRender({
+        component: Component.RecentNotes({
+          title: "Recent Notes",
+          limit: 5,
+          filter: (f) => {
+          // Only Flashcards and Writing notes
+          return f.slug!.startsWith("Flashcards/") || f.slug!.startsWith("Writing/")
+        },
+          showTags: false
+        }),
+        condition: (page) => page.fileData.slug === "index",
+      }),
+    )
+    
   ],
   right: [
     Component.Graph(),
