@@ -73,6 +73,11 @@ function updateCurrentBookReading() {
         const quote = data.currently_reading__quote 
             ? `<br /><i>${data.currently_reading__quote}</i>` 
             : "";
+        
+        const personal_website_link = data.currently_reading__personal_website_link
+            ? `<p>I'm writing something
+            about it <a href="${data.currently_reading__personal_website_link}">Here</a></p>`
+            : "";
 
         currentlyreading.innerHTML = `
                 <p>
@@ -85,6 +90,7 @@ function updateCurrentBookReading() {
                 <p>
                     ${quote}
                 </p>
+                ${personal_website_link}
 
             `
     })
