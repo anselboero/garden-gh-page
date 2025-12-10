@@ -1,5 +1,13 @@
 ---
+<<<<<<< HEAD
 {"publish":true,"created":"2025-10-12","modified":"2025-12-10T12:45:09.309+01:00","tags":["flashcards","tinyExperiments"],"cssclasses":""}
+=======
+tags:
+  - flashcards
+  - tinyExperiments
+date: 2025-10-12
+publish: true
+>>>>>>> 6cb927e (merge)
 ---
 
 [[Flashcards/Tiny Experiments/02 - Cognitive Scripts - Tiny Experiments\|Next: Cognitive Scripts]]

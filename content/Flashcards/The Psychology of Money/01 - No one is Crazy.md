@@ -1,5 +1,13 @@
 ---
+<<<<<<< HEAD
 {"publish":true,"created":"2025-11-25","modified":"2025-12-10T12:45:50.042+01:00","tags":["flashcards","psychologyOfMoney"],"cssclasses":""}
+=======
+tags:
+  - flashcards
+  - psychologyOfMoney
+date: 2025-11-25
+publish: true
+>>>>>>> 6cb927e (merge)
 ---
 
 # Summary

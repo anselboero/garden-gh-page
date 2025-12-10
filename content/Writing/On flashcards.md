@@ -1,5 +1,10 @@
 ---
+<<<<<<< HEAD
 {"publish":true,"created":"2025-10-12","modified":"2025-12-10T12:46:42.776+01:00","cssclasses":""}
+=======
+date: 2025-10-12
+publish: true
+>>>>>>> 6cb927e (merge)
 ---
 
 

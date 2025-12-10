@@ -1,5 +1,13 @@
 ---
+<<<<<<< HEAD
 {"publish":true,"created":"2025-12-07","modified":"2025-12-10T12:46:01.913+01:00","tags":["mentalModels","flashcards"],"cssclasses":""}
+=======
+tags:
+  - mentalModels
+  - flashcards
+date: 2025-12-07
+publish: true
+>>>>>>> 6cb927e (merge)
 ---
 
 # Summary

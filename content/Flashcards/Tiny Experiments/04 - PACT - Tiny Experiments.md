@@ -1,5 +1,13 @@
 ---
+<<<<<<< HEAD
 {"publish":true,"created":"2025-10-19","modified":"2025-12-10T12:45:32.220+01:00","tags":["flashcards","tinyExperiments"],"cssclasses":""}
+=======
+tags:
+  - flashcards
+  - tinyExperiments
+date: 2025-10-19
+publish: true
+>>>>>>> 6cb927e (merge)
 ---
 
 [[Flashcards/Tiny Experiments/03 - Field Notes - Tiny Experiments\|Previous: Field Notes]]
