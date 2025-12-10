@@ -1,13 +1,19 @@
 ---
+<<<<<<< HEAD
+{"publish":true,"created":{"{ date }":null},"modified":"2025-12-10T12:46:24.756+01:00","tags":["people"],"cssclasses":""}
+=======
 category:
   - "[[People|People]]"
 tags:
   - people
-birthday: 
+birthday:
 org: []
 created:
-  "{ date }": 
+  "{ date }":
+publish: true
+>>>>>>> 6cb927e (merge)
 ---
+
 ## Meetings
 
 | Meeting | Date |
