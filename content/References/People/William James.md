@@ -1,15 +1,9 @@
 ---
-<<<<<<< HEAD
-{"publish":true,"created":"2025-12-09T16:26:22.523+01:00","modified":"2025-12-10T12:46:29.310+01:00","tags":["people","authors"],"cssclasses":""}
-=======
 category: "[[People]]"
 tags:
   - people
   - authors
-publish: true
->>>>>>> 6cb927e (merge)
 ---
-
 1842 - 1910.
 
 [Wikipedia page](https://en.wikipedia.org/wiki/William_James).
