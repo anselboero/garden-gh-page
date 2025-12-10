@@ -1,9 +1,7 @@
 ---
-category: "[[People]]"
-tags:
-  - people
-  - authors
+{"publish":true,"created":"2025-12-09T16:26:22.523+01:00","modified":"2025-12-10T12:46:20.225+01:00","tags":["people","authors"],"cssclasses":""}
 ---
+
 ## Books
 
 ```dataview
