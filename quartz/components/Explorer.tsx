@@ -47,8 +47,8 @@ const defaultOptions: Options = {
     }
   },
   // Also filteering out people page
-  filterFn: (node) => node.name !== "Tags" && node.name !== "Attachments"
-    && node.name != "References",
+  filterFn: (node) => node.slugSegment !== "Tags" && node.slugSegment !== "Attachments"
+    && node.slugSegment != "References",
   order: ["filter", "map", "sort"],
 }
 
