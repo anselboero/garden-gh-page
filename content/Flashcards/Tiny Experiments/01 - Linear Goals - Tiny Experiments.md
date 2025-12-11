@@ -1,5 +1,5 @@
 ---
-{"publish":true,"created":"2025-10-12","modified":"2025-12-11T16:19:30.108+01:00","tags":["flashcards","tinyExperiments"],"cssclasses":""}
+{"publish":true,"created":"2025-10-12","modified":"2025-12-11T17:09:04.667+01:00","tags":["flashcards","tinyExperiments"],"cssclasses":""}
 ---
 
 [[Flashcards/Tiny Experiments/02 - Cognitive Scripts - Tiny Experiments\|Next: Cognitive Scripts]]
@@ -11,8 +11,8 @@
 > [!Definition: Linear goal]
 > define a target state in the future and map out the steps to get there. Success as arriving at the target.
 
-## Linear goals stimulate Fear
-- where to begin?
+## Linear goals stimulate Fear 
+- where to begin?t
 - not enough time or financial resources
 - What if we fail?
 ## Linear goals encourage toxic productivity
